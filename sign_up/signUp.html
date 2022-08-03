@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zilong</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./signUpcss.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div><h3>Zilong</h3></div>
+      </div>
+      <div class="right">
+        <div class="notmember">
+          <p>Already a member?<a href="../login/login.html"> Sign In</a></p>
+        </div>
+        <div class="top">
+          <div class="cycrie">
+            <h3>Sign up to Zilong</h3>
+            <div class="item-logo">
+              <div class="google"><i class="fa-brands fa-google"></i></div>
+              <div class="twitter"><i class="fa-brands fa-twitter"></i></div>
+            </div>
+            <hr />
+            <div class="button">
+              <form action="../playMusic/Home.html" method="post" onsubmit="return checkForm()">
+                <fieldset class="nameAndUse">
+                  <div>
+                    <label for="name">name</label>
+                    <input
+                      type="text"
+                      name="name"
+                      id="name"
+                      value=""
+                      placeholder=""
+                    />
+                    <span class="outPut"></span>
+                  </div>
+                  <div>
+                    <label for="Username">Username</label>
+                    <input
+                      type="text"
+                      name="Username"
+                      id="Username"
+                      value=""
+                      placeholder=""
+                    />
+                    <span class="outPut"></span>
+                  </div>
+                </fieldset>
+                <fieldset>
+                  <label for="name">Username or Email Address</label>
+                  <input
+                    name="nameemail"
+                    type="text"
+                    id="nameemail"
+                    value=""
+                    placeholder="Email"
+                  />
+                  <span class="outPut"></span>
+                </fieldset>
+                <fieldset>
+                  <label id="passwords" for="password"
+                    >Password <a href="">Forgot password? </a></label
+                  >
+
+                  <div class="pass">
+                    <input
+                      type="password"
+                      id="password"
+                      name="password"
+                      value=""
+                      placeholder="Password"
+                    />
+                    <div class="eye">
+                      <i class="fa-solid fa-eye-slash"></i
+                      ><i class="fa-solid fa-eye hidden"></i>
+                    </div>
+                  </div>
+
+                  <span class="outPut"></span>
+                </fieldset>
+                <fieldset>
+                  <div class="checkboxs">
+                    <input type="checkbox" name="" id="check" />
+                    <label for="check"
+                      ><p>
+                        Creating an account means you’re okay with our
+                        <a href="">Terms of Service, Privacy Policy</a> , and
+                        our default <a href="">Notification Settings.</a>
+                      </p></label
+                    >
+                  </div>
+                </fieldset>
+
+                <input id="submit" type="submit" value="Sign up" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./mainsignup.js"></script>
+</html>

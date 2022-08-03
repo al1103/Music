@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.container {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 0;
+}
+.left {
+  flex: 36%;
+  width: 36%;
+  background-color: aquamarine;
+  flex-shrink: 0;
+  flex-grow: 1;
+  height: 100vh;
+  max-width: 550px;
+}
+.left > div > h3 {
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  text-align: center;
+}
+.right {
+  flex: calc(100% - 36%);
+  width: calc(100% - 36%);
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding-left: 20px;
+  height: auto;
+}
+fieldset {
+  border: 0;
+}
+fieldset label {
+  display: block;
+}
+.cycrie {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  max-width: 450px;
+}
+hr {
+  overflow: visible;
+  text-align: center;
+  position: relative;
+  color: #6e6d7a;
+}
+hr::after {
+  position: absolute;
+  z-index: 2;
+  content: "Or";
+  left: 50%;
+  bottom: -7px;
+  transform: translateX(-50%);
+  padding: 0 16px;
+  background-color: #ffffff;
+}
+.item-logo {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  background-color: rgb(247, 241, 234);
+  margin: 20px 0 30px 0;
+  border-radius: 5px;
+  display: flex;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.item-logo {
+  margin-bottom: 40px;
+}
+.cycrie h3 {
+  text-align: center;
+}
+input[type="submit"] {
+  width: 40%;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid rgb(204, 188, 188);
+  border-radius: 2rem;
+  cursor: not-allowed;
+}
+#submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 17px;
+}
+#passwords {
+  display: block;
+}
+#passwords a {
+  float: right;
+}
+.notmember p {
+  display: block;
+  float: right;
+  padding-right: 20px;
+}
+.nameAndUse {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-grow: 1;
+}
+#check {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  align-items: flex-start;
+  margin-top: 5px;
+}
+.checkboxs {
+  display: flex;
+  flex-direction: row;
+}
+.checkboxs p {
+  font-size: 13px;
+}
+.checkboxs a {
+  font-size: 12px;
+}
+.checkboxs label {
+  word-wrap: break-word;
+}
+.outPut {
+  color: red;
+  font-size: 12px;
+  position: relative;
+  top: -10px;
+}
+.pass {
+  position: relative;
+}
+.eye {
+  position: relative;
+  float: right;
+  margin-top: -60px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
