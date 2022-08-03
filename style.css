@@ -750,6 +750,9 @@ input[type="range"]::-webkit-slider-thumb {
   #second {
     width: 270px !important;
   }
+  .nav-right > ul > li:last-child div a {
+    padding: 5px 15px;
+  }
 
   .show_navbar,
   .bar {
