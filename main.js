@@ -88,3 +88,6 @@ close.addEventListener('click', function () {
 })
 open.addEventListener('click', handShow)
 function handShow() { navBar.style.transform = "translateX(0%)" }
+function myalert() {
+    alert('tính năng này hiện chưa được cập nhật')
+}
