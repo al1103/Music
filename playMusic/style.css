@@ -439,8 +439,11 @@ article {
 .content-item:hover .image span {
   visibility: visible;
   opacity: 1;
+  color: #ffffff;
 }
-
+.item:hover {
+  background-color: #353535;
+}
 main {
   width: 100%;
   height: 110px;
