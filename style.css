@@ -18,6 +18,9 @@ header {
   right: 0;
   z-index: 99;
 }
+.item:hover {
+  background-color: #353535;
+}
 .head {
   font-family: "Roboto Mono", monospace;
   font-weight: 800;
