@@ -18,6 +18,7 @@ repeat --> OK
 scroll to active song --> OK
 
 click to play song --> OK
+ click to volume --> OK
 
 
 Live Preview
