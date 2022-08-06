@@ -18,9 +18,6 @@ header {
   right: 0;
   z-index: 99;
 }
-.item:hover {
-  background-color: #353535;
-}
 .head {
   font-family: "Roboto Mono", monospace;
   font-weight: 800;
@@ -159,6 +156,21 @@ nav {
   transform: translateY(-50%);
   background-color: white;
   right: 0;
+}
+.album-top {
+  height: 370px;
+  width: 100%;
+}
+.title-album h3 {
+  display: inline-block;
+  color: #bbb4b4;
+}
+.title-album span {
+  float: right;
+  margin-top: 20px;
+}
+.item:hover {
+  background-color: #353535;
 }
 
 .search > input {
@@ -399,8 +411,8 @@ article {
 }
 .name-song {
   font-size: 18px;
-  flex-grow: 1;
   display: -webkit-box;
+  flex-grow: 1;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
@@ -412,12 +424,9 @@ article {
 .name-author {
   flex-grow: 1;
   font-size: 14px;
-  height: 25px;
   margin-top: auto;
   padding-left: 10px;
-
   color: #ebe7e7;
-
   bottom: 0;
   position: absolute;
 }
@@ -578,16 +587,15 @@ article {
     position: relative;
     max-width: 100%;
   }
-}
-.album-top {
-  height: 370px;
-  width: 100%;
-}
-.title-album h3 {
-  display: inline-block;
-  color: #bbb4b4;
-}
-.title-album span {
-  float: right;
-  margin-top: 20px;
+  .album-top {
+    height: 300px;
+  }
+  .name-song {
+    margin: 0;
+    padding: 5px;
+    font-size: 12px;
+  }
+  .name-author {
+    font-size: 10px;
+  }
 }
